@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: #f4e7d3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Шапка */
+header {
+  background-color: #8b5e3c;
+  font-family: lora;
+}
+header nav img {
+  height: 70px;
+  margin-right: 20px;
+}
+header div nav a,
+footer div nav a {
+  color: wheat;
+  text-decoration: none;
+  font-size: 18px;
+}
+.no-bullets {
+  list-style-type: none; /* Убирает маркеры */
+  display: flex;
+  gap: 20px; /* Расстояние между элементами списка */
+}
+.no-bullets a:hover {
+  text-decoration: underline; /* Подчеркивание при наведении */
+  color: #ffa07a;
+  transition: all 0.3s ease;
+}
+nav {
+  display: flex;
+  align-items: center; /* Выравниваем элементы по вертикали */
+  justify-content: center; /* Горизонтальное выравнивание */
+}
+/* Основной контент */
+main {
+  padding: 20px;
+  font-family: lora;
+  flex: 1 /* Растягиваем main на всю доступную высоту */;
+}
+main h1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.image-text-container {
+  display: flex;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.image-text-container img {
+  height: 300px;
+}
+
+.text-content h3 {
+  margin: 0;
+}
+
+.text-content p {
+  margin: 10px 0 0;
+}
+
+/* Подвал */
+footer {
+  background-color: #8b5e3c;
+  padding: 10px;
+}
